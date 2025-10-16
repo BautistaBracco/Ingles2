@@ -43,3 +43,4 @@ Ubicación: `/decisiones-grupo.md`
 
 Registro de las decisiones y consensos alcanzados durante el proceso.
 
+
