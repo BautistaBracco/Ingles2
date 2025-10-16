@@ -6,8 +6,8 @@ Este repositorio contiene el trabajo colaborativo de nuestro grupo para la elabo
 
 ## 👥 Integrantes del Grupo
 
-- [Bautista Bracco]
-- [Leandro Cuevas]
+- Bautista Bracco
+- Leandro Cuevas
 
 ## 🎯 Objetivo
 
