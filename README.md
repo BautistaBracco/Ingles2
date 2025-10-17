@@ -19,8 +19,9 @@ Desarrollar una Pull Request que incluya:
 ```
 .
 ├── README.md
-├── movimientos-retoricos.jpg
 └── decisiones-grupo.md
+├── movimientos-retoricos.jpg
+├── pr.md
 ```
 
 ## 📝 Documentos Principales
@@ -35,5 +36,11 @@ Contiene la estructura de los movimientos retóricos identificados para nuestra 
 Ubicación: `/decisiones-grupo.md`
 
 Registro de las decisiones y consensos alcanzados durante el proceso.
+
+
+### 2. Pull request (Borrador)
+Ubicación: `/pr.md`
+
+Incluye el borrador final de la Pull Request con la propuesta desarrollada.
 
 
