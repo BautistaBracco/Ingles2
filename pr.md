@@ -1,3 +1,6 @@
+# feat: Implement user registration form validation
+
+
 ### 1. CONTEXT AND MOTIVATION
 
 This change is necessary because the user registration form currently allows account creation with incomplete or incorrectly formatted data. This leads to database inconsistencies and a poor user experience.
