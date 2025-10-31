@@ -1,15 +1,8 @@
 # feat: Implement user registration form validation
 
-
-### 1. CONTEXT AND MOTIVATION
-
 This change is necessary because the user registration form currently allows account creation with incomplete or incorrectly formatted data. This leads to database inconsistencies and a poor user experience.
 
 This PR **addresses** `issue #123: Validate input data in registration form`, tackling this critical vulnerability and **resolving** the need to ensure data integrity at the entry point.
-
----
-
-### 2. DESCRIPTION OF THE SOLUTION
 
 This PR **implements** a robust validation layer for the user registration form. It **introduces** the following changes:
 
@@ -18,20 +11,8 @@ This PR **implements** a robust validation layer for the user registration form.
 * **Modifies** the `/api/register` endpoint to apply these validation rules before attempting to store the user.
 * **Updates** the error messages returned to the client to be more specific in case of validation failures.
 
----
-
-### 3. JUSTIFICATION AND BENEFITS
-
-This solution significantly **improves** the quality of user data stored in the system. By validating data on the server, it **enhances** the application's overall security and **ensures** that only users with valid information are created.
-
-* It **optimizes** the registration process by reducing manual errors and the need for subsequent corrections.
-* It **enables** a better end-user experience by providing clear and immediate feedback on input errors.
-
----
-
-### 4. EVIDENCE AND TESTING
-
-The changes have been  **tested** with the following tests:
+This solution significantly **improves** the quality of user data stored in the system. By validating data on the server, it **enhances** the application's overall security and **ensures** that only users with valid information are created, while also **optimizing** the registration process by reducing manual errors and **enabling** a better end-user experience by providing clear and immediate feedback on input errors.
+To verify this, the changes have been **tested** with the following tests:
 
 * **Unit Tests:** New unit tests have been **added** for the `email` and `password` validation functions in `userValidation.test.js`, **validating** that the rules are applied correctly.
 * **Integration Tests:** Integration tests were run simulating registration attempts with both valid and invalid data.
@@ -63,10 +44,6 @@ Snapshots:   0 total
 Time:        1.842 s, estimated 2 s
 Ran all test suites matching /userValidation.test.js.
 ```
-
----
-
-### 5. CALL TO ACTION
 
 **Please review** this PR, paying special attention to the validation logic in `src/middlewares/userValidation.js` and how it is **introduced** into the authentication router.
 
